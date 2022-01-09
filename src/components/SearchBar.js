@@ -31,7 +31,6 @@ class SearchBar extends React.Component {
             onChange={this.onInputChange}
             value={this.state.term}
           />
-          <button className="ui button primary">Search</button>
         </form>
       </div>
     );
